@@ -168,3 +168,60 @@ body, html{
   font-size: 20px;
   color: #7CB2BF;
 }
+
+@media (max-width: 1024px){
+  .radius{
+    width: 400px;
+  }
+  #name{
+    font-size: 30px;
+  }
+
+  #extra1{
+    font-size: 20px;
+    margin-right:75px;
+  }
+
+  #extra{
+    font-size: 20px;
+    margin-left:75px;
+  }
+
+  .circle{
+    width: 150px;
+  	height: 150px;
+  	border-radius: 75px;
+  	-webkit-border-radius: 75px;
+  	-moz-border-radius: 75px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    margin: auto;
+    /*position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes
+    transform: translate(-50%, -50%);*/
+  }
+
+  .small_circle{
+    width: 100px;
+  	height: 100px;
+  	border-radius: 50px;
+  	-webkit-border-radius: 50px;
+  	-moz-border-radius: 50px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    margin: auto;
+  }
+
+  .small_radius{
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  }
+}
