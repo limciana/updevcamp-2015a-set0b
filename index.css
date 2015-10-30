@@ -1,0 +1,170 @@
+#wrapper{
+  min-height:100%;
+	position:relative;
+}
+
+.page-scroll{
+  list-style-type:none;
+  font-family: Amatic SC;
+
+  display: inline;
+}
+
+.page-scroll a{
+  text-decoration: none;
+  color: #7CB2BF;
+}
+
+.header{
+  background-color: #2A4561;
+  padding: 20px;
+  position: fixed;
+  margin: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 3;
+}
+
+#name{
+  font-size: 40px;
+}
+
+#extra1{
+  font-size: 25px;
+  margin-right:150px;
+}
+
+#extra{
+  font-size: 25px;
+  margin-left:150px;
+}
+
+.top{
+  text-align:center;
+}
+
+body, html{
+  background: url('http://s23.postimg.org/wd8i3ruuj/swirl_pattern.png');
+  margin: 0px;
+  padding: 0;
+  height: 100%;
+}
+
+
+
+.par1 p{
+  position: relative;
+  z-index: 2;
+  font-family: Pacifico;
+  margin: 50px;
+  text-align: center;
+  font-size: 25px;
+  color: #131823;
+}
+
+.circle{
+  width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  margin: auto;
+  /*position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes
+  transform: translate(-50%, -50%);*/
+}
+
+.par2 p{
+  font-family: Pacifico;
+  /*font-weight: bold;*/
+  text-align: center;
+  margin: 20px;
+  font-size: 25px;
+  color: #131823;
+  z-index: 2;
+  position: relative;
+}
+
+.par2{
+  background-color: #7CB2BF;
+  padding: 30px;
+}
+
+.radius{
+  border-radius: 100px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+#cover {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:rgba(170,195,210,0.5);
+    z-index:1;
+}
+
+.par3{
+  padding: 30px;
+}
+
+.par3 p{
+  font-family: Pacifico;
+  /*font-weight: bold;*/
+  text-align: center;
+  margin: 20px;
+  font-size: 25px;
+  color: #131823;
+  z-index: 2;
+  position: relative;
+}
+
+.small_circle{
+  width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  margin: auto;
+}
+
+.small_radius{
+  width: 400px;
+  height: 400px;
+  border-radius: 50px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.content{
+  padding-bottom: 175px;
+}
+
+#contact{
+  background-color: #131823;
+  width:100%;
+	height:180px;
+	position:absolute;
+	bottom:0;
+	left:0;
+  z-index: 3;
+}
+
+#contact p{
+  font-family: Amatic SC;
+  text-align: center;
+  font-size: 20px;
+  color: #7CB2BF;
+}
